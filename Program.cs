@@ -6,7 +6,10 @@ namespace gissa_spel
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Random slump=new Random();
+            Console.WriteLine("Guess a number:");
+            int num=int.Parse(Console.ReadLine());
+
         }
     }
 }
